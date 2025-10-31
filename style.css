@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #0a0a0a;
+  color: white;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #111;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: #00d084;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00d084;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #003300, #001a00);
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  color: #00ff88;
+}
+
+.hero p {
+  margin: 1rem 0;
+}
+
+.btn {
+  background: #00d084;
+  color: black;
+  padding: 10px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #00ff99;
+}
+
+/* About Section */
+.about, .courses, .contact {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+/* Course Card */
+.course-card {
+  background: #111;
+  padding: 30px;
+  border-radius: 12px;
+  width: 300px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px #00d08450;
+}
+
+/* Contact Section */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.contact input, .contact textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #222;
+  color: white;
+}
+
+.contact button {
+  cursor: pointer;
+}
+
+.email {
+  margin-top: 15px;
+  color: #00ff99;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
